@@ -328,7 +328,7 @@
 
 .accordion-items {
     background: #6EE7FF12;
-
+transition: all .3s;
     background: var(--accordion-back-clr-1);
     border-radius: 14px;
 }
