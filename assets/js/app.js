@@ -49,7 +49,7 @@ menuicon.addEventListener("click", () => {
     }
 });
 
-// video play
+// car video play
 
 let video = document.querySelectorAll(".video_play");
 video.forEach(e => {
@@ -134,3 +134,6 @@ AOS.init(
         once: true,
     }
 );
+
+
+
