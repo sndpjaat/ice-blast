@@ -228,9 +228,11 @@
 }
 
 .py-blast-col-2 {
-    padding-bottom: 200px;
+    padding-bottom: 200px ;
 }
-
+.max-w-641{
+    max-width: 641px;
+}
 
 /* why choose us Section */
 
@@ -831,6 +833,17 @@ transition: all .3s;
     cursor: pointer;
 }
 
+.understanding-right {
+    top: 357px;
+    max-width: 690px;
+    right: 0;
+  }
+  
+  .understanding-left {
+    left: 0;
+    bottom: 10px;
+  }
+  
 
 
   

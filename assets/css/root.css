@@ -608,6 +608,15 @@ a {
 /* Media Queries */
 
 @media (min-width: 1200px) {
+
+    .understanding-right {
+        top: 425px;
+      }
+    
+      .understanding-left,
+      .understanding-right {
+        max-width: 503px !important;
+      }
     .move {
         animation: none;
         margin: 0;
@@ -696,6 +705,15 @@ a {
 }
 
 @media (max-width: 1200px) {
+    .understanding-right {
+        top: 425px;
+      }
+    
+      .understanding-left,
+      .understanding-right {
+        max-width: 503px !important;
+      }
+    
     .pos-dry-ice-blast {
         max-width: 500px !important;
     }
@@ -759,10 +777,33 @@ a {
 }
 
 @media (max-width: 991.9px) {
+
+    .understanding-left,
+  .understanding-right {
+    position: unset !important;
+    max-width: unset;
+  }
+
+  .understanding-right {
+    padding-top: 10px;
+  }
+
+  .understanding-width {
+    max-width: 758px;
+  }
     .svg_icon_2 {
         display: none !important;
     }
-
+    .pos-dry-ice-blast {
+        
+        height: 439px;
+       
+        max-width: 650px;
+    }
+    .py-blast-col-2 {
+        padding-bottom: 200px !important;
+    }
+    
     .max-w-about-main-text {
         max-width: 100%;
     }
@@ -910,19 +951,16 @@ a {
         width: 100%;
     }
 
-    .pos-dry-ice-blast {
+    /* .pos-dry-ice-blast {
         right: -15px;
         top: 0;
         height: auto;
         position: relative;
         max-width: 100% !important;
         height: 500px;
-    }
+    } */
 
-    .py-blast-col {
-        padding-bottom: 40px;
-        padding-top: 40px;
-    }
+    
 
     .pos-dry-ice-blast-2 {
         left: -15px;
@@ -941,9 +979,24 @@ a {
     .max-w-blasting {
         max-width: 768px;
     }
+    .py-blast-col {
+        padding-top: 505px !important;
+        padding-bottom: 271px;
+    }
 }
 
 @media (max-width: 767.9px) {
+    
+    .py-blast-col-2{
+        padding-bottom: 100px;
+    }
+
+    .understanding-left,
+    .understanding-right {
+      max-width: 645px;
+      width: 100%;
+    }
+  
     .menuicon {
         display: flex;
         align-items: center;
@@ -1125,6 +1178,11 @@ a {
 }
 
 @media (max-width: 576px) {
+  
+    .py-blast-col {
+        padding-top: 374px !important;
+        padding-bottom: 271px;
+    }
     .navBar-changes {
         padding-left: 24px;
         padding-right: 24px;
@@ -1188,7 +1246,7 @@ a {
     }
 
     .w-h-bts-img {
-        height: 260px;
+        height: 260px !important;
     }
 
     .c-compare::after {
